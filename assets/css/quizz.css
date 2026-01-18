@@ -98,3 +98,10 @@ button:hover {
     font-weight: bold;
     text-align: center;
 }
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    background-color:#35424a;
+}
