@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Quizz Culture Web</title>
+    <link rel="stylesheet" href="/assets/css/quizz.css">
+    <script src="/assets/js/quizz.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Quizz : Testez votre Culture Web</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="parcours.html">Parcours</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="stages.html">Stages</a></li>
+                <li><a href="manifestations.html">Manifestations</a></li>
+                <li><a href="matiere.html">Matières</a></li>
+                <li><a href="passions.html">Passions</a></li>
+                <li><a href="quizz.html">Quizz</a></li>
+                <li><a href="temoignage.html">Témoignage</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Répondez aux 10 questions</h2>
+        
+        <form >
+            <div class="question" id="blocQ1">
+                <h3>1. Que signifie HTML ?</h3>
+                <label><input type="radio" name="Q1" value="a"> HyperText Making Language</label><br>
+                <label><input type="radio" name="Q1" value="b"> HyperText Markup Language</label><br>
+                <label><input type="radio" name="Q1" value="c"> HighText Markup Language</label>
+            </div>
+
+            <div class="question" id="blocQ2">
+                <h3>2. Quel langage gère le style (couleurs, polices) ?</h3>
+                <label><input type="radio" name="Q2" value="a"> HTML</label><br>
+                <label><input type="radio" name="Q2" value="b"> CSS</label><br>
+                <label><input type="radio" name="Q2" value="c"> HTTP</label>
+            </div>
+
+            <div class="question" id="blocQ3">
+                <h3>3. Quelle balise permet d'insérer une image ?</h3>
+                <label><input type="radio" name="Q3" value="a"> &lt;img&gt;</label><br>
+                <label><input type="radio" name="Q3" value="b"> &lt;image&gt;</label><br>
+                <label><input type="radio" name="Q3" value="c"> &lt;src&gt;</label>
+            </div>
+
+            <div class="question" id="blocQ4">
+                <h3>4. Lequel est un navigateur web ?</h3>
+                <label><input type="radio" name="Q4" value="a"> Python</label><br>
+                <label><input type="radio" name="Q4" value="b"> Chrome</label><br>
+                <label><input type="radio" name="Q4" value="c"> Java</label>
+            </div>
+
+            <div class="question" id="blocQ5">
+                <h3>5. Que signifie le "www" dans une adresse web ?</h3>
+                <label><input type="radio" name="Q5" value="a"> World Wide Web</label><br>
+                <label><input type="radio" name="Q5" value="b"> Web World Wide</label><br>
+                <label><input type="radio" name="Q5" value="c"> World Web Wide</label>
+            </div>
+
+            <div class="question" id="blocQ6">
+                <h3>6. Quelle balise crée un lien hypertexte ?</h3>
+                <label><input type="radio" name="Q6" value="a"> &lt;link&gt;</label><br>
+                <label><input type="radio" name="Q6" value="b"> &lt;a&gt;</label><br>
+                <label><input type="radio" name="Q6" value="c"> &lt;href&gt;</label>
+            </div>
+
+            <div class="question" id="blocQ7">
+                <h3>7. Où écrit-on le titre de l'onglet du navigateur ?</h3>
+                <label><input type="radio" name="Q7" value="a"> &lt;head&gt; -> &lt;title&gt;</label><br>
+                <label><input type="radio" name="Q7" value="b"> &lt;body&gt; -> &lt;h1&gt;</label><br>
+                <label><input type="radio" name="Q7" value="c"> &lt;footer&gt;</label>
+            </div>
+
+            <div class="question" id="blocQ8">
+                <h3>8. Lequel n'est PAS un langage de programmation ?</h3>
+                <label><input type="radio" name="Q8" value="a"> JavaScript</label><br>
+                <label><input type="radio" name="Q8" value="b"> Python</label><br>
+                <label><input type="radio" name="Q8" value="c"> HTML</label>
+            </div>
+
+            <div class="question" id="blocQ9">
+                <h3>9. Quelle propriété CSS change la couleur du texte ?</h3>
+                <label><input type="radio" name="Q9" value="a"> text-color</label><br>
+                <label><input type="radio" name="Q9" value="b"> font-color</label><br>
+                <label><input type="radio" name="Q9" value="c"> color</label>
+            </div>
+
+            <div class="question" id="blocQ10">
+                <h3>10. Comment déclarer une variable en JavaScript ?</h3>
+                <label><input type="radio" name="Q10" value="a"> v : monNom</label><br>
+                <label><input type="radio" name="Q10" value="b"> var monNom</label><br>
+                <label><input type="radio" name="Q10" value="c"> variable monNom</label>
+            </div>
+
+            <button type="button" onclick="validation()">Valider mes réponses</button>
+        </form>
+
+        <div id="resultat"></div>
+        <div id="correction" class="corr"></div>
+
+    </section>
+
+    <footer>
+        <p>Copyright © 2026 - Azouzi Mahmoud</p>
+    </footer>
+</body>
+</html>

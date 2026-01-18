@@ -1,0 +1,88 @@
+body{
+    background-color: lightgrey;
+    color: darkgrey;
+}
+header{
+    background-color:#35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 150px;
+    border-bottom: orange 3px solid;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header h1{
+    margin-bottom: 20px;
+}
+nav ul{
+    text-align: center;
+    background-color:#35424a;
+}
+nav li{
+    display: inline-block;
+    margin: 10px;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+}
+nav a:hover{
+    color: aqua;
+}
+section{
+    background-color: white;
+    min-height: 400px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+section h2{
+    padding: 20px;
+    color: #35424a;
+    border-bottom: 3px solid ;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+section h3{
+    padding: 15px;
+    color:#35424a;
+    margin-left: 0px;
+
+}
+section p{
+    color: #35424a;
+    margin: 50px;
+    padding: 50px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.moi {
+    width: 200px;                    
+    float: left;
+    margin-left: 50px;         
+    margin-right: 20px;    
+    border: 3px solid #35424a; 
+    border-radius: 50%;    
+    box-shadow: 4px 4px 5px #888; 
+}
+.icons{
+    width: 50px;
+    margin-left: 50px;                             
+    margin-right: 20px;    
+    border: 3px solid #35424a; 
+    border-radius: 50%;    
+    box-shadow: 4px 4px 5px #888; 
+    vertical-align:middle;
+    margin-bottom: 20px;
+}
+.footer_section{
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    background-color:#35424a;
+}
